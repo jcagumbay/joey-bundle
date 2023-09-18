@@ -1,0 +1,28 @@
+{
+    "name": "jcagumbay/joey-bundle",
+    "description": "Simple Symfony 6 bundle. Joey does nothing but to flirt with you. You can override his default but never-missed pick-up line.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "J-Boy Cagumbay",
+            "email": "cagumbay.jb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/http-kernel": "6.3.*",
+        "symfony/config": "6.3.*",
+        "symfony/dependency-injection": "6.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jcagumbay\\JoeyBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Jcagumbay\\JoeyBundle\\": "tests/"
+        }
+    }
+}
